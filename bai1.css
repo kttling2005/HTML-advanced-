@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul
+{
+    list-style: none;
+}
+
+body
+{
+    background-color: rgb(194, 194, 194);
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.clearfix
+{
+    zoom: 1;
+}
+
+.clearfix ::after
+{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.our-service
+{
+    margin: 30px auto;
+    width: 1140px;
+}
+.our-service h1
+{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 17px;
+}
+.our-service .lead-text
+{
+    color: rgb(131, 130, 130);
+    font-size: 20px;
+    margin-bottom: 57px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+}
+
+.our-service .our-service-list li
+{
+    background-color: white;
+    float: left;
+    margin-right: 20px;
+    min-height: 420px;
+    width: 360px;
+}
+.our-service .our-service-list li ::nth-child(3n)
+{
+    background-color: brown;
+}
