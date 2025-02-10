@@ -4,7 +4,6 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-
 h1 {
     margin-top: 20px;
     font-size: 30px;
@@ -35,6 +34,9 @@ h1::after{
     padding: 10px;
 }
 
+.study a{
+    text-decoration: none;
+}
 .study li:hover{
     opacity: 0.8;
 }
