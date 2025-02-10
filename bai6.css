@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h1 span{
+    display: inline-block;
+    padding: 0 20px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+h1::after{
+    background-color: rgba(128, 128, 128, 0.543);
+    content: "";
+    display: block;
+    height: 1.5px;
+    left: 0;
+    position: absolute;
+    top: 35px;
+    width: 100%;
+}
+
+.study li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.study li:hover{
+    opacity: 0.8;
+}
