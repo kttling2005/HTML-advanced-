@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    background: url(images/bgr.jpg) fixed;
+    margin: 30px auto;
+    padding: 38px auto;
+    width: 1180px; 
+    height: 300px;
+    text-align: center;
+}
+
+ul li i{
+    font-size: 45px;
+}
+
+ul li{
+    color: white;
+    display: inline-block;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 80px;
+    padding: 20px 50px;
+    line-height: 1.2;
+}
+
+.number{
+    font-size: 60px;
+}
+
+.text{
+    font-size: 16px;
+}
+
