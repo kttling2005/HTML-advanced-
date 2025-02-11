@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.tittle{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 20px 200px;
+    color: rgba(160, 159, 159, 0.704);
+}
+
+.choices li{
+    display: inline-block;
+    padding: 20px 80px 80px 80px;
+}
+
+.choices li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold; 
+}
+
+.choices li :hover{
+    opacity: 0.8;
+}
