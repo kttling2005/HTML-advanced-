@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.pic{
+    margin: 30px auto;
+    width: 1140px;
+} 
+
+.pic li{
+    float: left;
+    background-color: rgba(230, 229, 229, 0.757);
+    text-align: center;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    height: 230px;
+    width: 330px;
+    line-height: 1.5;
+}
+
+.pic li i{
+    color: rgb(1, 56, 1);
+    border: 2px solid rgb(1,56,1);
+    padding: 10px 10px;
+    font-size: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.pic li h2{
+    font-family: 'Saira', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.pic li p{
+    font-family:'Courier New', cursive;
+    font-size: 16px;
+    color: rgba(128, 128, 128, 0.834);
+}
