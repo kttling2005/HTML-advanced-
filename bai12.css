@@ -1,0 +1,53 @@
+*{
+    margin-top: 10px;
+    padding: 0;
+}
+
+img{
+    float: left;
+}
+
+ul{
+    width: 700px;
+    float: left; 
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 16px;
+}
+
+ul li a{
+    font-family: 'Tahoma',sans-serif;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.678);
+    font-size: 16px;
+}
+
+ul li a:hover{
+    color: rgb(33, 144, 255);
+}
+
+.login{
+    float: right;
+    margin-right: 5px;
+}
+
+.login{
+    text-decoration: none;
+    border: 2px solid rgba(0, 0, 0, 0.213);
+    padding: 0px 20px;
+    border-radius: 3px;
+    color: black;
+    font-family:  'Tahoma',sans-serif;
+}
+.login:hover{
+    border-color: rgb(33, 144, 255);
+}
+.login i{
+    float: left;
+    padding-right: 15px;
+}
+.login p{
+    float: right;
+}
